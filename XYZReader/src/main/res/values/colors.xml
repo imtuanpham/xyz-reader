@@ -17,10 +17,15 @@
 
 <!--Reference: https://color.adobe.com/Salty-Oranges-color-theme-11107482/?showPublished=true-->
 <resources>
-    <color name="photo_placeholder">#DAC297</color>
 
-    <color name="theme_primary">#A0A78C</color>
-    <color name="theme_primary_dark">#243441</color>
-    <color name="theme_accent">#F5651E</color>
-    <color name="ltgray">#445952</color>
+    <!--   color for the app bar and other primary UI elements -->
+    <color name="colorPrimary">#A0A78C</color>
+
+    <!--   a darker variant of the primary color, used for
+           the status bar (on Android 5.0+) and contextual app bars -->
+    <color name="colorPrimaryDark">#243441</color>
+
+    <!--   a secondary color for controls like checkboxes and text fields -->
+    <color name="colorAccent">#F5651E</color>
+
 </resources>
